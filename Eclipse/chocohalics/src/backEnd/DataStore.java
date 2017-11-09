@@ -15,9 +15,7 @@ public abstract class DataStore<T> {
 		return null;
 	}
 	
-	public void sort(){
-		
-	}
+	public abstract void sort();
 	
 	/**
 	 * Attempts to add 
