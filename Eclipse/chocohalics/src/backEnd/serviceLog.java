@@ -1,6 +1,6 @@
-package chocoholics;
+package backEnd;
 import java.util.ArrayList;
-public class serviceLog {
+public class serviceLog extends DataStore {
 
 	ArrayList servicesLog = new ArrayList();
 	serviceComparator useMe = new serviceComparator();
@@ -38,7 +38,20 @@ public class serviceLog {
 			((service)servicesLog.get(location)).setServiceDescrp(descript);
 		}
 	}
-	
+/////////////////////////////////////////
+	/*	extended   */
+	@Override
+	public void sort() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void writeToDisk() {
+		// TODO Auto-generated method stub
+		
+	}
+//////////////////////////////////////////	
 	
 	//public void addService(Service service){
 		//if(listed(service)){}
