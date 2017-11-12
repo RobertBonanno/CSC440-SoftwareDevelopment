@@ -1,8 +1,8 @@
-package chocoholics;
+package backEnd;
 
 import java.util.ArrayList;
 
-public class memberLog {
+public class memberLog extends DataStore{
 
 	ArrayList membersLog = new ArrayList();
 	memberComparator useMe2 = new memberComparator();
@@ -14,7 +14,19 @@ public class memberLog {
 			membersLog.add(Member);
 		}
 	}
-	
+//////////////////////////////////////
+	@Override
+	public void sort() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void writeToDisk() {
+		// TODO Auto-generated method stub
+		
+	}
+//////////////////////////////////////
 	
 	
 	
